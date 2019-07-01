@@ -25,9 +25,8 @@
 					<a href="index.html" class="logo"><strong>Absolute
 							Knowledge</strong> by M2i</a>
 					<ul class="icons">
-						<li class="active"><a href="index.html"><span>Accueil</span></a></li>
-						<li><a href="cours.html"><span>Cours</span></a></li>
-						<li><a href="quizz.jsp"><span>Quizz</span></a></li>
+						<li class="active"><a href="index.jsp"><span>Accueil</span></a></li>
+						<li><a href="cours.jsp"><span>Cours</span></a></li>
 					</ul>
 				</header>
 

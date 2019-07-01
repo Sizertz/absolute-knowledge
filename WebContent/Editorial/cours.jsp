@@ -31,41 +31,18 @@
 
 				</header>
 
-				<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h1>Bienvenue, petit néophyte !</h1>
-							<p>Un site pour apprendre la programmation</p>
-						</header>
-						<p>
-							<strong>Absolute Knowledge</strong> est né des doigts experts de
-							plusieurs développeurs acharnés. Son doux nom fut donné par <strong>Michael</strong>
-							(à  prononcer à  la française ou à l'américaine). </br>Nous espérons
-							que ton voyage dans l'apprentissage de l'informatique se
-							déroulera sans trop d'encombres...
-						</p>
-						<ul class="actions">
-							<li><a href="#" class="button big">Voir plus</a></li>
-						</ul>
-					</div>
-					<span class="image object"> <img src="images/pic10.jpg"
-						alt="" />
-					</span>
-				</section>
-
 
 
 				<!-- Section -->
 				<section>
 					<header class="major">
-						<h2>Cours à  la une</h2>
+						<h2>Liste des cours</h2>
 					</header>
 					<div class="posts">
 					
 					<%
 					
-					for (int i=0; i<3; i++) {
+					for (int i=0; i<3; i++) { // REMPLACER LE 3 PAR LE NOMBRE DE COURS DANS LA BDD
 						
 						 testChapitre testChap1 = new testChapitre();
 						 
@@ -83,41 +60,10 @@
 					}
 					
 					
+					
+					
 					%>  
 					
-					
-					
-<!-- 						<article>
-							<a href="github.jsp" class="image"><img
-								src="images/pic01.jpg" alt="" /></a>
-							<h3>Github</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem
-								ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed
-								nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-							<h3>Nulla amet dolore</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem
-								ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed
-								nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-							<h3>Nulla amet dolore</h3>
-							<p>Aenean ornare velit lacus, ac varius enim lorem
-								ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed
-								nulla amet lorem feugiat tempus aliquam.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</article> -->
 					</div>
 				</section>
 
